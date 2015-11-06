@@ -1,4 +1,4 @@
-package se.stephenro.luxi;
+package se.stephenro.lumy;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

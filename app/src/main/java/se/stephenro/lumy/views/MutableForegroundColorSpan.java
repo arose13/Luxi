@@ -1,4 +1,4 @@
-package se.stephenro.luxi.views;
+package se.stephenro.lumy.views;
 
 import android.text.TextPaint;
 import android.text.style.CharacterStyle;

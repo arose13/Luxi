@@ -1,4 +1,4 @@
-package se.stephenro.luxi.views;
+package se.stephenro.lumy.views;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

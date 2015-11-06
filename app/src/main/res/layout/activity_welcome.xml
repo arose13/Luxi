@@ -3,7 +3,7 @@
     android:layout_height="match_parent" android:background="@color/colorPrimary"
     tools:context=".WelcomeActivity">
 
-    <se.stephenro.luxi.views.FadeInTextView
+    <se.stephenro.lumy.views.FadeInTextView
         android:id="@+id/welcomeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

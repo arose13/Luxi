@@ -1,4 +1,4 @@
-package se.stephenro.luxi;
+package se.stephenro.lumy;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

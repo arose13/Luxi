@@ -1,4 +1,4 @@
-package se.stephenro.luxi;
+package se.stephenro.lumy;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -9,7 +9,7 @@ import android.view.View;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import se.stephenro.luxi.views.FadeInTextView;
+import se.stephenro.lumy.views.FadeInTextView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="se.stephenro.luxi" >
+    package="se.stephenro.lumy" >
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
 
         <!-- Welcome Screen -->
         <activity
-            android:name="se.stephenro.luxi.WelcomeActivity"
+            android:name="se.stephenro.lumy.WelcomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme"
@@ -24,7 +24,7 @@
 
         <!-- Light Sensor Screen -->
         <activity
-            android:name="se.stephenro.luxi.LightSensorActivity"
+            android:name="se.stephenro.lumy.LightSensorActivity"
             android:theme="@style/FullscreenTheme"
             android:screenOrientation="portrait">
             <intent-filter>

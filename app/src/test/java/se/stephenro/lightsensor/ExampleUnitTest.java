@@ -1,4 +1,4 @@
-package se.stephenro.luxi;
+package se.stephenro.lumy;
 
 import org.junit.Test;
 
