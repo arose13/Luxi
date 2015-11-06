@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Luxi</string>
+
+    <string name="reset_button">Reset</string>
+
+    <string name="max">Max: </string>
+    <string name="min">Min: </string>
+    <string name="mean">Mean: </string>
+    <string name="luxValue">0</string>
+</resources>

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "se.stephenro.lightsensor"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+
+    // View Binding
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    // Scaling TextView [docs: https://github.com/grantland/android-autofittextview]
+    compile 'me.grantland:autofittextview:0.2.1'
+
+    // Math is a MASSIVE math library [docs: http://commons.apache.org/proper/commons-math/javadocs/api-3.5/index.html]
+    compile 'org.apache.commons:commons-math3:3.5'
+}
